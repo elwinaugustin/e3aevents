@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Booking Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Event Booking Page</h1>
+  </header>
+
+  <main>
+
+    <section class="event-details">
+
+      <h2>Event Details</h2>
+
+      <p>Event name: [Event name]</p>
+      <p>Event date: [Event date]</p>
+      <p>Event time: [Event time]</p>
+      <p>Event location: [Event location]</p>
+      <p>Event description: [Event description]</p>
+
+    </section>
+
+    <section class="booking-form">
+
+      <h2>Booking Form</h2>
+
+      <form action="/booking" method="post">
+
+        <input type="text" name="name" placeholder="Your name">
+        <input type="email" name="email" placeholder="Your email">
+        <input type="number" name="quantity" placeholder="Number of tickets">
+
+        <button type="submit">Book Tickets</button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023 Event Booking Website</p>
+  </footer>
+
+</body>
+</html>
