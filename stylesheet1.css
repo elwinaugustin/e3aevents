@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 3em;
   line-height: 1.5em;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 20%;
+  width: 50%;
   padding: 20px;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 
 .product-list .product-details {
   float: left;
-  margin-left: 10px;
+  margin-left: 70px;
 }
 
 .product-list .product-details h3 {
@@ -91,7 +91,7 @@ a:hover {
 
 .footer {
   background-color: #fff;
-  padding: 20px;
+  padding: 80px;
   text-align: center;
 }
 
